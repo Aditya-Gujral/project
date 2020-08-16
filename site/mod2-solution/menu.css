@@ -1,0 +1,85 @@
+*{
+	box-sizing: border-box;
+}
+
+
+body{
+
+	background-color: #EEE8AA;
+
+
+}
+
+.txt{
+
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+ .pasta{
+
+	float: left;
+	background:#FF6347;
+	border: 5px solid #EEE8AA;
+	padding: 5px;
+    height: 400px;
+	width: 100px;  
+
+}
+.burger{
+
+	float: left;
+	background:#FF6347;
+	border: 5px solid #EEE8AA;
+	height: 400px;
+	width: 100px;
+}
+
+.nachos{
+    
+	float: left; 
+	background:#FF6347;
+	border: 5px solid #EEE8AA;
+	height: 400px;
+	width: 100px;
+}
+
+	
+h1{
+	font-size: 150%;
+	background-color: #FFD700;
+	text-align: center;
+	border:5px solid red;
+	
+	margin:5px;
+	padding: 5px;
+	width: 50%;
+	
+}
+h2{
+
+background-color: #DA70D6;
+font-size:200%;	
+font-family: Impact, Charcoal, sans-serif;
+text-align:right;
+
+}
+
+@media(min-width: 992px){
+.dish{
+	width: 33.33%;
+}
+
+}
+@media(min-width: 768px) and (max-width:991px ){
+.dish{
+	width: 50%;
+}
+
+}
+@media(max-width: 767px){
+.dish{
+	width: 100%;
+}
+
+}
+
